@@ -26,7 +26,7 @@ const ActionButtons: React.FC = () => {
         variants={buttonVariants}
         onClick={handleLike}
         className={`hover:text-red-500 ${
-          liked ? "text-red-500" : "text-gray-400"
+          liked ? "text-red-500" : "text-gray-800"
         }`}
       >
         {liked ? <AiFillHeart size={24} /> : <AiOutlineHeart size={24} />}
@@ -35,7 +35,7 @@ const ActionButtons: React.FC = () => {
         whileHover="hover"
         whileTap="tap"
         variants={buttonVariants}
-        className="text-gray-400 hover:text-blue-500"
+        className="text-gray-800 hover:text-blue-500"
       >
         <AiOutlineEye size={24} />
       </motion.button>

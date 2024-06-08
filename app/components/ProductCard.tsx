@@ -25,8 +25,8 @@ const ProductCard: React.FC<ProductCardProps> = ({
   discount,
 }) => {
   return (
-    <div className="bg-white border border-gray-200 text-left relative shadow-md hover:shadow-lg transition-shadow duration-300 ">
-      <div className="bg-[#F5F5F5] relative group py-4 md:py-6 lg:py-8">
+    <div className="bg-white border border-gray-200 text-left relative shadow-md hover:shadow-lg transition-shadow duration-300 flex flex-col m-2 md:mx-4 lg:my-6 max-w-xs">
+      <div className="bg-[#F5F5F5] relative group py-3 md:py-4 lg:py-5 flex-1 flex flex-col justify-between">
         {isNew && (
           <span className="absolute top-2 left-2 bg-green-500 font-semibold tracking-wider text-white text-xs px-2 py-1 rounded">
             NEW
@@ -40,21 +40,21 @@ const ProductCard: React.FC<ProductCardProps> = ({
         <ActionButtons />
         <Image
           src={imageUrl}
-          alt="Product"
+          alt={name}
           width={120}
           height={120}
-          className="w-full h-32 md:h-48 lg:h-64 object-contain m-0 p-4 px-10"
+          className="w-full h-32 sm:h-40 md:h-48 lg:h-56 object-contain m-0 p-2"
         />
-        <button className="absolute bottom-0 left-0 w-full text-lg font-medium bg-black py-2 text-center rounded-md mx-auto text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+        <button className="absolute bottom-0 left-0 w-full text-base font-medium bg-black py-2 text-center rounded-md mx-auto text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
           Add To Cart
         </button>
       </div>
-      <div className="px-4 py-2">
-        <div className="text-sm md:text-lg lg:text-xl font-medium text-gray-800 mt-3">
+      <div className="px-2 md:px-3 lg:px-4 py-2">
+        <div className="text-xs md:text-sm lg:text-base font-medium text-gray-800 mt-2">
           {name}
         </div>
-        <div className="flex items-center mt-2">
-          <span className="text-sm md:text-lg lg:text-xl font-semibold text-[#DB4444]">
+        <div className="flex items-center mt-1">
+          <span className="text-xs md:text-sm lg:text-base font-semibold text-[#DB4444]">
             {price}
           </span>
           {originalPrice && (
@@ -63,7 +63,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
             </span>
           )}
         </div>
-        <div className="flex items-center gap-2 mt-2">
+        <div className="flex items-center gap-2 mt-1">
           <StarRating rating={rating} />
           <div className="text-xs md:text-sm lg:text-base text-gray-500">
             ({remainingItems})
