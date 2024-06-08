@@ -6,6 +6,7 @@ import FlashSales from "./components/FlashSales";
 import Features from "./components/Features";
 import Banner from "./components/Banner";
 import BestSellingProducts from "./components/BestSellingProducts";
+import OurProducts from "./components/OurProducts";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <FlashSales />
       <BestSellingProducts />
       <Banner />
+      <OurProducts />
       <NewArrival />
       <Features />
       <Footer />

@@ -1,0 +1,62 @@
+[
+  {
+    "imageUrl": "/images/our-products/breed-dry-dog-food.png",
+    "price": "$100",
+    "rating": 3,
+    "remainingItems": 35,
+    "name": "Breed Dry Dog Food"
+  },
+  {
+    "imageUrl": "/images/our-products/canon-eos-dslr-camera.png",
+    "price": "$360",
+    "rating": 4.5,
+    "remainingItems": 95,
+    "name": "CANON EOS DSLR Camera"
+  },
+  {
+    "imageUrl": "/images/our-products/asus-fhd-gaming-laptop.png",
+    "price": "$700",
+    "rating": 4.5,
+    "remainingItems": 325,
+    "name": "ASUS FHD Gaming Laptop",
+    "discount": "$500"
+  },
+  {
+    "imageUrl": "/images/our-products/curolopgy-product-set.png",
+    "price": "$500",
+    "rating": 4,
+    "remainingItems": 145,
+    "name": "Curology Product Set"
+  },
+  {
+    "imageUrl": "/images/our-products/kids-electric-car.png",
+    "price": "$960",
+    "rating": 5,
+    "remainingItems": 65,
+    "name": "Kids Electric Car",
+    "isNew": true
+  },
+  {
+    "imageUrl": "/images/our-products/jr-zoom-soccer-cleats.png",
+    "price": "$1160",
+    "rating": 5,
+    "remainingItems": 35,
+    "name": "Jr. Zoom Soccer Cleats",
+    "isNew": true
+  },
+  {
+    "imageUrl": "/images/our-products/shooter-usb-gamepad.png",
+    "price": "$660",
+    "rating": 4.5,
+    "remainingItems": 55,
+    "name": "GP11 Shooter USB Gamepad",
+    "isNew": true
+  },
+  {
+    "imageUrl": "/images/our-products/quilted-satin-jacket.png",
+    "price": "$660",
+    "rating": 4.5,
+    "remainingItems": 55,
+    "name": "Quilted Satin Jacket"
+  }
+]
