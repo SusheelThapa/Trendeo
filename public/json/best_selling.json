@@ -1,0 +1,34 @@
+[
+  {
+    "imageUrl": "/images/best-selling/the-north-coat.png",
+    "price": "$260",
+    "originalPrice": "",
+    "rating": 5,
+    "remainingItems": 65,
+    "name": "The north coat"
+  },
+  {
+    "imageUrl": "/images/best-selling/gucci-duffle-bag.png",
+    "price": "$360",
+    "originalPrice": "",
+    "rating": 3.5,
+    "remainingItems": 65,
+    "name": "Gucci duffle bag"
+  },
+  {
+    "imageUrl": "/images/best-selling/rgb-liquid-cpu-cooler.png",
+    "price": "$160",
+    "originalPrice": "$170",
+    "rating": 4,
+    "remainingItems": 65,
+    "name": "RGB liquid CPU Cooler"
+  },
+  {
+    "imageUrl": "/images/best-selling/small-bookself.png",
+    "price": "$960",
+    "originalPrice": "$1160",
+    "rating": 4.5,
+    "remainingItems": 65,
+    "name": "Small BookSelf"
+  }
+]
