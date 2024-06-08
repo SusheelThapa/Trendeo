@@ -32,7 +32,7 @@ const Header = () => {
             </svg>
           </button>
         </div>
-        <div className={`w-full block flex-grow lg:flex lg:items-center lg:w-auto ${isMenuOpen ? 'block' : 'hidden'} `}>
+        <div className={`w-full block flex-grow lg:flex lg:items-center lg:w-auto ${isMenuOpen ? 'block' : 'hidden'}  border-t-2 md:border-none mt-4 md:mt-none`}>
           <ul className="text-md lg:flex-grow flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-8 gap-4 lg:gap-0 justify-center font-[500] mt-6 px-4 md:mt-0 md:px-0">
             <li className="border-b-2 border-transparent hover:border-gray-500">
               <Link href="/">Home</Link>
