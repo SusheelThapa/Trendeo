@@ -3,21 +3,12 @@ import React from "react";
 interface CategoryCardProps {
   icon: React.ReactNode;
   label: string;
-  isSelected: boolean;
 }
 
-const CategoryCard: React.FC<CategoryCardProps> = ({
-  icon,
-  label,
-  isSelected,
-}) => {
-  const backgroundColor = isSelected
-    ? "bg-red-500 text-white"
-    : "bg-white text-black";
-
+const CategoryCard: React.FC<CategoryCardProps> = ({ icon, label }) => {
   return (
     <div
-      className={`flex flex-col items-center justify-center p-4 rounded-md shadow-md border ${backgroundColor} hover:bg-red-400 hover:border-transparent transition-colors duration-200
+      className={`flex flex-col items-center justify-center p-4 rounded-md shadow-md border bg-white hover:bg-red-400 hover:border-transparent transition-colors duration-200
     w-full h-32 sm:w-48 sm:h-36 md:w-48 md:h-36 lg:w-48 lg:h-36`}
     >
       <div className="text-4xl sm:text-5xl lg:text-5xl mb-2 font-thin">

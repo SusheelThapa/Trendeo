@@ -7,12 +7,14 @@ import Features from "./components/Features";
 import Banner from "./components/Banner";
 import BestSellingProducts from "./components/BestSellingProducts";
 import OurProducts from "./components/OurProducts";
+import BrowserByCategory from "./components/BrowserByCategory";
 
 export default function Home() {
   return (
     <>
       <Header />
       <FlashSales />
+      <BrowserByCategory />
       <BestSellingProducts />
       <Banner />
       <OurProducts />
