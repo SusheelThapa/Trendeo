@@ -9,7 +9,6 @@ const FlashSales: React.FC = () => {
       section_title="Today's"
       section_subtitle="Flash Sales"
       products={flash_sales_products}
-      showTimer={true}
     />
   );
 };
