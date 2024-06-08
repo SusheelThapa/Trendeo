@@ -6,11 +6,6 @@ import FlashSales from "./components/FlashSales";
 import Features from "./components/Features";
 import Banner from "./components/Banner";
 
-import Features from "./components/Features";
-import Banner from "./components/Banner";
-
-import FlashSales from "./components/FlashSales";
-
 
 export default function Home() {
   return (
