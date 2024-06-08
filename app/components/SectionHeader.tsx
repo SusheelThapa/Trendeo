@@ -1,5 +1,4 @@
 import React from "react";
-import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 interface SectionHeaderProps {
   title: string;
@@ -25,13 +24,8 @@ const SectionHeader: React.FC<SectionHeaderProps> = ({
           <h3 className="text-xl md:text-3xl lg:text-4xl font-bold">
             {subtitle}
           </h3>
-          {children && <div className="hidden lg:block">{children}</div>}
+          {children && <div className="hidden xl:block">{children}</div>}
         </div>
-      </div>
-
-      <div className="absolute bottom-0 right-0 flex gap-3 items-center space-x-2 text-gray-900 ">
-        <FaArrowLeft size={24} />
-        <FaArrowRight size={24} />
       </div>
     </div>
   );

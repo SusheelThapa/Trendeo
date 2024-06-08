@@ -2,19 +2,11 @@ import Image from "next/image";
 import React from "react";
 import StarRating from "./StarRating";
 import ActionButtons from "./ActionButtons";
+import { Product } from "@/types/types";
 
-interface ProductCardProps {
-  imageUrl: string;
-  price: string;
-  originalPrice?: string;
-  rating: number;
-  remainingItems: number;
-  name: string;
-  isNew?: boolean;
-  discount?: string;
-}
 
-const ProductCard: React.FC<ProductCardProps> = ({
+
+const ProductCard: React.FC<Product> = ({
   name,
   imageUrl,
   price,
