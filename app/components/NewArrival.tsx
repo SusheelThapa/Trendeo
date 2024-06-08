@@ -11,8 +11,7 @@ const NewArrival = () => {
                             src="/images/ps5.png"
                             alt="PS5"
                             layout="fill"
-                            objectFit="contain"
-                            className="rounded-md md:p-10"
+                            className="rounded-md md:p-10 object-contain"
                         />
                     </div>
                     <div className="absolute inset-0 flex items-end z-20">
@@ -30,8 +29,7 @@ const NewArrival = () => {
                                 src="/images/women_collections.png"
                                 alt="Women Collections"
                                 layout="fill"
-                                objectFit="contain"
-                                className="rounded-md"
+                                className="rounded-md  object-contain"
                             />
                         </div>
                         <div className="absolute inset-0 flex items-end z-20">
@@ -49,8 +47,7 @@ const NewArrival = () => {
                                     src="/images/speaker.png"
                                     alt="Speaker"
                                     layout="fill"
-                                    objectFit="contain"
-                                    className="rounded-md md:p-10"
+                                    className="rounded-md md:p-10  object-contain"
                                 />
                             </div>
                             <div className="absolute inset-0 flex items-end z-20">
@@ -67,8 +64,7 @@ const NewArrival = () => {
                                     src="/images/perfume.png"
                                     alt="Perfume"
                                     layout="fill"
-                                    objectFit="contain"
-                                    className="rounded-md md:p-10"
+                                    className="rounded-md md:p-10 object-contain"
                                 />
                             </div>
                             <div className="absolute inset-0 flex items-end z-20">

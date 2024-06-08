@@ -10,12 +10,11 @@ import Banner from "./components/Banner";
 export default function Home() {
   return (
     <>
-
-      <div className="mx-4 sm:mx-8 md:mx-16 lg:mx-24 xl:mx-32">
-        <Header />
-        <FlashSales />
-        <NewArrival />
-      </div>
+      <Header />
+      <FlashSales />
+      <Banner />
+      <NewArrival />
+      <Features/>
       <Footer />
     </>
   );
