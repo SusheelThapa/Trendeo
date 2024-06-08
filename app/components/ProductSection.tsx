@@ -4,6 +4,7 @@ import SectionHeader from "./SectionHeader";
 import Button from "./Button";
 import Timer from "./Timer";
 import { Product } from "@/types/types";
+import PopupAnimation from "./PopupAnimation";
 
 interface Props {
   section_title: string;
@@ -24,6 +25,8 @@ const ProductSection: React.FC<Props> = ({
       </SectionHeader>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
         {products.map((product, index) => (
+          <PopupAnimation key={index}>
+
           <ProductCard
             key={index}
             name={product.name}
@@ -34,6 +37,8 @@ const ProductSection: React.FC<Props> = ({
             remainingItems={product.remainingItems}
             discount={product.discount}
           />
+          </PopupAnimation>
+
         ))}
       </div>
       <div className="text-center mt-6">
