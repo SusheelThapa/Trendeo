@@ -58,16 +58,54 @@ const Header = () => {
             </motion.svg>
           </button>
         </div>
+        <div className="w-full  flex-grow sm:hidden md:hidden hidden lg:flex lg:items-center lg:w-auto border-t-2 md:border-none mt-4 md:mt-none">
+          <ul className="text-md lg:flex-grow flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-8 gap-4 lg:gap-0 justify-center font-[500] mt-6 px-4 md:mt-0 md:px-0">
+            <li className="border-b-2 border-transparent hover:border-gray-500">
+              <Link href="/">Home</Link>
+            </li>
+            <li className="border-b-2 border-transparent hover:border-gray-500">
+              <Link href="/contact">Contact</Link>
+            </li>
+            <li className="border-b-2 border-transparent hover:border-gray-500">
+              <Link href="/about">About</Link>
+            </li>
+            <li className="border-b-2 border-transparent hover:border-gray-500">
+              <Link href="/signup">Sign Up</Link>
+            </li>
+          </ul>
+          <div className="flex flex-col lg:flex-row items-center lg:space-x-4 mt-4 lg:mt-0 w-full lg:w-auto">
+            <div className="flex flex-row bg-gray-100 pl-4 w-full lg:w-auto">
+              <input
+                type="text"
+                placeholder="What are you looking for?"
+                className="px-4 py-2 rounded-md border focus:outline-none border-none bg-gray-100 w-full lg:w-auto"
+              />
+              <div className="relative">
+                <button className="px-4 py-2 rounded-md">
+                  <FiSearch className="w-6 h-6 text-gray-600" />
+                </button>
+              </div>
+            </div>
+            <div className="hidden md:flex flex-row items-center mt-4 lg:mt-0">
+              <button className="px-4 py-2 rounded-md hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                <FaRegHeart className="w-6 h-6 text-gray-600" />
+              </button>
+              <button className="px-4 py-2 rounded-md hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 ml-4">
+                <GrCart className="w-6 h-6 text-gray-600" />
+              </button>
+            </div>
+          </div>
+        </div>
         <AnimatePresence>
           {isMenuOpen && (
             <motion.div
-              className="w-full block flex-grow lg:flex lg:items-center lg:w-auto border-t-2 md:border-none mt-4 md:mt-none"
+              className="w-full block lg:hidden flex-grow lg:items-center lg:w-auto border-t-2 md:border-none mt-4 md:mt-none"
               initial={{ height: 0, opacity: 0 }}
               animate={{ height: "auto", opacity: 1 }}
               exit={{ height: 0, opacity: 0 }}
               transition={{ duration: 0.3 }}
             >
-              <ul className="text-md lg:flex-grow flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-8 gap-4 lg:gap-0 justify-center font-[500] mt-6 px-4 md:mt-0 md:px-0">
+              <ul className="text-md flex flex-col space-y-4 justify-center font-[500] mt-6 px-4 ">
                 <li className="border-b-2 border-transparent hover:border-gray-500">
                   <Link href="/">Home</Link>
                 </li>
@@ -81,12 +119,12 @@ const Header = () => {
                   <Link href="/signup">Sign Up</Link>
                 </li>
               </ul>
-              <div className="flex flex-col lg:flex-row items-center lg:space-x-4 mt-4 lg:mt-0 w-full lg:w-auto">
-                <div className="flex flex-row bg-gray-100 pl-4 w-full lg:w-auto">
+              <div className="flex flex-col items-center mt-4 w-full">
+                <div className="flex flex-row bg-gray-100 pl-4 w-full">
                   <input
                     type="text"
                     placeholder="What are you looking for?"
-                    className="px-4 py-2 rounded-md border focus:outline-none border-none bg-gray-100 w-full lg:w-auto"
+                    className="px-4 py-2 rounded-md border focus:outline-none border-none bg-gray-100 w-full"
                   />
                   <div className="relative">
                     <button className="px-4 py-2 rounded-md">
@@ -94,7 +132,7 @@ const Header = () => {
                     </button>
                   </div>
                 </div>
-                <div className="hidden md:flex flex-row items-center mt-4 lg:mt-0">
+                <div className="flex flex-row items-center mt-4 w-full">
                   <button className="px-4 py-2 rounded-md hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500">
                     <FaRegHeart className="w-6 h-6 text-gray-600" />
                   </button>
