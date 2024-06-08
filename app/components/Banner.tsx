@@ -6,7 +6,7 @@ const Banner = () => {
             <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center">
                 <div className="md:w-1/2 flex flex-col justify-center p-8 lg:p-14">
                     <h3 className="text-[#00FF66] mb-6">Categories</h3>
-                    <h1 className="text-5xl tracking-wider font-medium mb-6">Enhance Your Music Experience</h1>
+                    <h1 className="text-3xl md:text-5xl tracking-wider font-medium mb-6">Enhance Your Music Experience</h1>
                     <div className="flex space-x-2 mb-6 ">
                         {['Hours', 'Days', 'Minutes', 'Seconds'].map((unit, index) => (
                             <div key={unit} className="flex flex-col justify-center items-center rounded-full bg-white text-black w-16 h-16 ">

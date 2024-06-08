@@ -1,9 +1,10 @@
 import Image from 'next/image';
+import SectionHeader from './SectionHeader';
 
 const NewArrival = () => {
     return (
         <section className="mx-4 md:mx-28 my-10 flex flex-col justify-center ">
-            <h1 className="text-3xl font-bold mt-8 mb-12">New Arrival</h1>
+            <SectionHeader title="Featured" subtitle="New Arrival"/>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
                 <div className="relative p-4 flex justify-center items-center bg-black rounded-md h-[280px] lg:h-[580px] lg:w-[570]">
                     <div className="relative w-full h-full">
