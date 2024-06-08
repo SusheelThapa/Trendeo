@@ -49,7 +49,7 @@ const NewArrival = () => {
               <div className="absolute inset-0 flex items-end z-20">
                 <div className="text-white p-10 md:w-1/2">
                   <h2 className="text-2xl font-bold tracking-tight my-4 w-1/2 md:w-full">
-                    Women's Collections
+                    Women&apos;s Collections
                   </h2>
                   <p className="text-md font-normal mb-4">
                     Featured woman collections that give you another vibe.
