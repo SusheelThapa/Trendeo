@@ -4,8 +4,6 @@ import StarRating from "./StarRating";
 import ActionButtons from "./ActionButtons";
 import { Product } from "@/types/types";
 
-
-
 const ProductCard: React.FC<Product> = ({
   name,
   imageUrl,
@@ -17,15 +15,15 @@ const ProductCard: React.FC<Product> = ({
   discount,
 }) => {
   return (
-    <div className="bg-white border border-gray-200 text-left relative shadow-md hover:shadow-lg transition-shadow duration-300 flex flex-col m-2 md:mx-4 lg:my-6 max-w-xs">
+    <div className="bg-white border border-gray-200 text-left relative shadow-md hover:shadow-lg transition-shadow duration-300 flex flex-col m-2 md:mx-4 lg:my-6 max-w-xs rounded-md">
       <div className="bg-[#F5F5F5] relative group py-3 md:py-4 lg:py-5 flex-1 flex flex-col justify-between">
         {isNew && (
-          <span className="absolute top-2 left-2 bg-green-500 font-semibold tracking-wider text-white text-xs px-2 py-1 rounded">
+          <span className="absolute top-2 left-2 bg-green-500 font-semibold tracking-wider text-white text-xs px-2 py-1 rounded z-10">
             NEW
           </span>
         )}
         {discount && (
-          <span className="absolute top-2 left-2 bg-red-500 font-semibold tracking-wider text-white text-xs px-2 py-1 rounded">
+          <span className="absolute top-2 left-2 bg-red-500 font-semibold tracking-wider text-white text-xs px-2 py-1 rounded z-10">
             {discount}
           </span>
         )}

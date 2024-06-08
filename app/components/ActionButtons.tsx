@@ -19,7 +19,7 @@ const ActionButtons: React.FC = () => {
   };
 
   return (
-    <div className="absolute top-2 right-2 flex flex-col items-center space-y-2">
+    <div className="absolute top-2 right-2 flex flex-col items-center space-y-2 z-10">
       <motion.button
         whileHover="hover"
         whileTap="tap"
