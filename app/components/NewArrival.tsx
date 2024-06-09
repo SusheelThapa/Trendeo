@@ -13,7 +13,8 @@ const NewArrival = () => {
               <Image
                 src="/images/ps5.png"
                 alt="PS5"
-                layout="fill"
+                // layout="fill"
+                fill
                 className="rounded-md md:p-10 object-contain"
               />
             </div>
@@ -42,7 +43,8 @@ const NewArrival = () => {
                 <Image
                   src="/images/women_collections.png"
                   alt="Women Collections"
-                  layout="fill"
+                  // layout="fill"
+                  fill
                   className="rounded-md  object-contain"
                 />
               </div>
@@ -71,7 +73,8 @@ const NewArrival = () => {
                     <Image
                       src="/images/speaker.png"
                       alt="Speaker"
-                      layout="fill"
+                      // layout="fill"
+                      fill
                       className="rounded-md md:p-10  object-contain"
                     />
                   </div>
@@ -99,7 +102,8 @@ const NewArrival = () => {
                     <Image
                       src="/images/perfume.png"
                       alt="Perfume"
-                      layout="fill"
+                      // layout="fill"
+                      fill
                       className="rounded-md md:p-10 object-contain"
                     />
                   </div>
