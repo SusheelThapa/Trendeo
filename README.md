@@ -54,6 +54,9 @@
 
 Check out the live demo of our project [here](https://www.trendeo.susheelthapa.com.np/).
 
+https://github.com/SusheelThapa/Trendeo/assets/83917129/d4f35324-42e2-443c-95b3-74ccfb0b2561
+
+
 ## Installation
 
 ### Prerequisites
@@ -97,4 +100,4 @@ This project is licensed under the [MIT License](/LICENSE).
 
 ## Figma Design
 
-Checkout our Figma design [here]()
+Checkout our Figma design [here](https://www.figma.com/design/ld2ZH62VOZma4WtJ7UwHeY/Trendeo?node-id=0-1&t=JbZ5pc2ZoxfgUCvG-1)
