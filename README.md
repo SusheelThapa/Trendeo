@@ -2,7 +2,7 @@
 
 <br/>
 <p align="center">
-    <strong>Stay ahead with Trendeo – your premier destination for the latest trends, insights, and innovative updates.</strong>
+    <strong>Trendeo: Your One-Stop Shop for Everything You Need and More</strong>
 </p>
 <br/>
 
