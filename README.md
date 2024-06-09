@@ -2,7 +2,7 @@
 
 <br/>
 <p align="center">
-    <strong>Discover the latest trends and insights with Trendeo - your go-to source for cutting-edge updates and information.</strong>
+    <strong>Stay ahead with Trendeo – your premier destination for the latest trends, insights, and innovative updates.</strong>
 </p>
 <br/>
 
@@ -46,9 +46,9 @@
 
 ## Features
 
-- Stay updated with the latest trends and insights.
 - User-friendly interface for seamless navigation.
-- Regular updates to keep you informed about current trends.
+- Responsive design
+- Fast Loading Speed
 
 ## Demo
 
