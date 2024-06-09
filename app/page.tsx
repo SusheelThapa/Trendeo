@@ -9,17 +9,13 @@ import BestSellingProducts from "./components/BestSellingProducts";
 import OurProducts from "./components/OurProducts";
 import BrowserByCategory from "./components/BrowserByCategory";
 import HeroSection from "./components/HeroSection";
-import ShopByCategory from "./components/ShopByCategory";
 
 export default function Home() {
   return (
     <>
       <Header />
       <hr />
-      <div className="">
-      {/* <ShopByCategory/> */}
-      <HeroSection/>
-      </div>
+      <HeroSection />
       <FlashSales />
       <BrowserByCategory />
       <BestSellingProducts />

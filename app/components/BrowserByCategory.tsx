@@ -2,9 +2,9 @@ import React from "react";
 import { CiMobile4, CiDesktop, CiCamera, CiHeadphones } from "react-icons/ci";
 import { IoWatchOutline } from "react-icons/io5";
 import { VscGame } from "react-icons/vsc";
-import CategoryCard from "./CategoryCard"; // Adjust the import path as needed
-import SectionHeader from "./SectionHeader";
-import PopupAnimation from "./PopupAnimation";
+import CategoryCard from "./common/CategoryCard"; // Adjust the import path as needed
+import SectionHeader from "./common/SectionHeader";
+import PopupAnimation from "./common/PopupAnimation";
 
 const categories = [
   { icon: <CiMobile4 />, label: "Phones" },

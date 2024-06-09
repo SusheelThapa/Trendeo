@@ -1,6 +1,6 @@
 import { FaShippingFast, FaHeadset } from "react-icons/fa";
 import { IoShieldCheckmarkOutline } from "react-icons/io5";
-import PopupAnimation from "./PopupAnimation";
+import PopupAnimation from "./common/PopupAnimation";
 const features = [
   {
     icon: FaShippingFast,

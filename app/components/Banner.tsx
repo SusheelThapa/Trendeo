@@ -1,5 +1,5 @@
 import Image from "next/image";
-import PopupAnimation from "./PopupAnimation";
+import PopupAnimation from "./common/PopupAnimation";
 const Banner = () => {
   return (
     <PopupAnimation>

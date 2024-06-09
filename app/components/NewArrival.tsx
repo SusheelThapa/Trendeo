@@ -1,6 +1,6 @@
 import Image from "next/image";
-import SectionHeader from "./SectionHeader";
-import PopupAnimation from "./PopupAnimation";
+import SectionHeader from "./common/SectionHeader";
+import PopupAnimation from "./common/PopupAnimation";
 
 const NewArrival = () => {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
-import ProductCard from "./ProductCard";
+import ProductCard from "./common/ProductCard";
 import best_selling_products from "@/public/json/best_selling.json"; // Adjust the path as necessary
-import ProductSection from "./ProductSection";
+import ProductSection from "./common/ProductSection";
 
 const BestSellingProducts: React.FC = () => {
   return (

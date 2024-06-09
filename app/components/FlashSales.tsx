@@ -1,7 +1,7 @@
 import React from "react";
-import ProductCard from "./ProductCard";
+import ProductCard from "./common/ProductCard";
 import flash_sales_products from "@/public/json/flash_sales.json"; // Adjust the path as necessary
-import ProductSection from "./ProductSection";
+import ProductSection from "./common/ProductSection";
 
 const FlashSales: React.FC = () => {
   return (
